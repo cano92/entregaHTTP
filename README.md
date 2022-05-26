@@ -34,4 +34,4 @@ log
 
 
 el servidor solo Responde a peticiones GET del protocolo Http 1.0 y Http 1.1
-de lo contrario retorna un error cod 405 de http 
+de lo contrario retorna un error cod 405 de http  tanto en el log como en el responses al cliente
