@@ -22,7 +22,9 @@ public class RefSocketCliCode {
                 // connect() ya se hizo implícito
 		InputStream in =  sock.getInputStream();
 		OutputStream out = sock.getOutputStream();
-		out.write('A');
+		
+		out.write("GET /index.html HTTP/1.0".getBytes());
+		
 		in.read(buf);
 		sock.close();
 	    }
