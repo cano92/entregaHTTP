@@ -28,8 +28,6 @@ log
 
 	curl -X POST http://localhost:8000/ejemplo3
 
-	curl -X POST http://localhost:8000/ejemplo3
-
 	curl -X a...GET http://localhost:8000/ejemplo4
 
 
