@@ -1,4 +1,6 @@
+ #### Entrega HTTP
 
+es un mini Servidor de prueba implementado con java sockets para recibir peticiones http 1.0 y http 1.1,generar una respuesta dinamica validando los header de los request recibidos segun el protocolo http
 
 para correr la aplicación de servidor solo se debe ejecutar como una aplicación java standard la clase  ***RefSocketCode*** esta clase genera una instancia de Socket que actúa como un servidor en el puerto 8000 de la máquina local
 
